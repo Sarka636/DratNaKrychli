@@ -1,0 +1,6 @@
+{
+  "name": "Projekce drátu v krychli",
+  "description": "Výuková prostorová hra s drátěnými modely v krychli a jejich 2D projekcemi (nárys, půdorys, bokorys).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
