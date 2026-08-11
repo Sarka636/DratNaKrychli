@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/DratNaKrychli/',   // <--- toto jsem přidala
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
