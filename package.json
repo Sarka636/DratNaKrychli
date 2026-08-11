@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",  // toto jsem přidala
-    "deploy": "gh-pages -d dist -b gh-pages"  // toto jsem přidala
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -b gh-pages",
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
