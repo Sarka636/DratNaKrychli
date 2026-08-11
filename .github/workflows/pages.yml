@@ -28,7 +28,8 @@ jobs:
         run: npm run build
 
       - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v1
+        # aktualizováno na verzi v2 (řeší závislost na upload-artifact v3)
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./dist
 
